@@ -1,0 +1,36 @@
+{
+	"name": "puppeter-scraper",
+	"version": "1.0.0",
+	"description": "nodejs scraper content programming",
+	"main": "index.js",
+	"scripts": {
+		"sc-medium": "node src/scraper/medium.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "restuwahyu13"
+	},
+	"keywords": [
+		"scraper",
+		"puppeteer",
+		"nodejs"
+	],
+	"author": "restuwahyu13",
+	"license": "MIT",
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.11.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.16.0",
+		"eslint-plugin-node": "^11.1.0",
+		"husky": "^4.3.6",
+		"pending-xhr-puppeteer": "^2.3.3",
+		"prettier": "^2.2.1",
+		"puppeteer": "^5.5.0",
+		"puppeteer-autoscroll-down": "^0.1.6",
+		"puppeteer-extra": "^3.1.15",
+		"puppeteer-extra-plugin-adblocker": "^2.11.9",
+		"puppeteer-extra-plugin-anonymize-ua": "^2.2.14",
+		"puppeteer-extra-plugin-flash": "^2.2.8",
+		"puppeteer-extra-plugin-stealth": "^2.6.5"
+	}
+}
